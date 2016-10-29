@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF5CE0061DC4500D00277DDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CE0051DC4500D00277DDF /* AppDelegate.swift */; };
+		FF5CE0081DC4500D00277DDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CE0071DC4500D00277DDF /* ViewController.swift */; };
+		FF5CE00B1DC4500D00277DDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5CE0091DC4500D00277DDF /* Main.storyboard */; };
+		FF5CE00D1DC4500D00277DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5CE00C1DC4500D00277DDF /* Assets.xcassets */; };
+		FF5CE0101DC4500D00277DDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5CE00E1DC4500D00277DDF /* LaunchScreen.storyboard */; };
+		FF5CE01B1DC4500D00277DDF /* Swift____swizzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CE01A1DC4500D00277DDF /* Swift____swizzleTests.swift */; };
+		FF5CE0261DC4500D00277DDF /* Swift____swizzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5CE0251DC4500D00277DDF /* Swift____swizzleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF5CE0171DC4500D00277DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF5CDFFA1DC4500C00277DDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF5CE0011DC4500D00277DDF;
+			remoteInfo = "Swift_黑魔法swizzle";
+		};
+		FF5CE0221DC4500D00277DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF5CDFFA1DC4500C00277DDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF5CE0011DC4500D00277DDF;
+			remoteInfo = "Swift_黑魔法swizzle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF5CE0021DC4500D00277DDF /* Swift_黑魔法swizzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift_黑魔法swizzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5CE0051DC4500D00277DDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF5CE0071DC4500D00277DDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF5CE00A1DC4500D00277DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF5CE00C1DC4500D00277DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF5CE00F1DC4500D00277DDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF5CE0111DC4500D00277DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5CE0161DC4500D00277DDF /* Swift_黑魔法swizzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift_黑魔法swizzleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5CE01A1DC4500D00277DDF /* Swift____swizzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift____swizzleTests.swift"; sourceTree = "<group>"; };
+		FF5CE01C1DC4500D00277DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5CE0211DC4500D00277DDF /* Swift_黑魔法swizzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift_黑魔法swizzleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5CE0251DC4500D00277DDF /* Swift____swizzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift____swizzleUITests.swift"; sourceTree = "<group>"; };
+		FF5CE0271DC4500D00277DDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF5CDFFF1DC4500D00277DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5CE0131DC4500D00277DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5CE01E1DC4500D00277DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF5CDFF91DC4500C00277DDF = {
+			isa = PBXGroup;
+			children = (
+				FF5CE0041DC4500D00277DDF /* Swift_黑魔法swizzle */,
+				FF5CE0191DC4500D00277DDF /* Swift_黑魔法swizzleTests */,
+				FF5CE0241DC4500D00277DDF /* Swift_黑魔法swizzleUITests */,
+				FF5CE0031DC4500D00277DDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF5CE0031DC4500D00277DDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF5CE0021DC4500D00277DDF /* Swift_黑魔法swizzle.app */,
+				FF5CE0161DC4500D00277DDF /* Swift_黑魔法swizzleTests.xctest */,
+				FF5CE0211DC4500D00277DDF /* Swift_黑魔法swizzleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF5CE0041DC4500D00277DDF /* Swift_黑魔法swizzle */ = {
+			isa = PBXGroup;
+			children = (
+				FF5CE0051DC4500D00277DDF /* AppDelegate.swift */,
+				FF5CE0071DC4500D00277DDF /* ViewController.swift */,
+				FF5CE0091DC4500D00277DDF /* Main.storyboard */,
+				FF5CE00C1DC4500D00277DDF /* Assets.xcassets */,
+				FF5CE00E1DC4500D00277DDF /* LaunchScreen.storyboard */,
+				FF5CE0111DC4500D00277DDF /* Info.plist */,
+			);
+			path = "Swift_黑魔法swizzle";
+			sourceTree = "<group>";
+		};
+		FF5CE0191DC4500D00277DDF /* Swift_黑魔法swizzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF5CE01A1DC4500D00277DDF /* Swift____swizzleTests.swift */,
+				FF5CE01C1DC4500D00277DDF /* Info.plist */,
+			);
+			path = "Swift_黑魔法swizzleTests";
+			sourceTree = "<group>";
+		};
+		FF5CE0241DC4500D00277DDF /* Swift_黑魔法swizzleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF5CE0251DC4500D00277DDF /* Swift____swizzleUITests.swift */,
+				FF5CE0271DC4500D00277DDF /* Info.plist */,
+			);
+			path = "Swift_黑魔法swizzleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF5CE0011DC4500D00277DDF /* Swift_黑魔法swizzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5CE02A1DC4500D00277DDF /* Build configuration list for PBXNativeTarget "Swift_黑魔法swizzle" */;
+			buildPhases = (
+				FF5CDFFE1DC4500D00277DDF /* Sources */,
+				FF5CDFFF1DC4500D00277DDF /* Frameworks */,
+				FF5CE0001DC4500D00277DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift_黑魔法swizzle";
+			productName = "Swift_黑魔法swizzle";
+			productReference = FF5CE0021DC4500D00277DDF /* Swift_黑魔法swizzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF5CE0151DC4500D00277DDF /* Swift_黑魔法swizzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5CE02D1DC4500D00277DDF /* Build configuration list for PBXNativeTarget "Swift_黑魔法swizzleTests" */;
+			buildPhases = (
+				FF5CE0121DC4500D00277DDF /* Sources */,
+				FF5CE0131DC4500D00277DDF /* Frameworks */,
+				FF5CE0141DC4500D00277DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF5CE0181DC4500D00277DDF /* PBXTargetDependency */,
+			);
+			name = "Swift_黑魔法swizzleTests";
+			productName = "Swift_黑魔法swizzleTests";
+			productReference = FF5CE0161DC4500D00277DDF /* Swift_黑魔法swizzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF5CE0201DC4500D00277DDF /* Swift_黑魔法swizzleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5CE0301DC4500D00277DDF /* Build configuration list for PBXNativeTarget "Swift_黑魔法swizzleUITests" */;
+			buildPhases = (
+				FF5CE01D1DC4500D00277DDF /* Sources */,
+				FF5CE01E1DC4500D00277DDF /* Frameworks */,
+				FF5CE01F1DC4500D00277DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF5CE0231DC4500D00277DDF /* PBXTargetDependency */,
+			);
+			name = "Swift_黑魔法swizzleUITests";
+			productName = "Swift_黑魔法swizzleUITests";
+			productReference = FF5CE0211DC4500D00277DDF /* Swift_黑魔法swizzleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF5CDFFA1DC4500C00277DDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Riches;
+				TargetAttributes = {
+					FF5CE0011DC4500D00277DDF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FF5CE0151DC4500D00277DDF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF5CE0011DC4500D00277DDF;
+					};
+					FF5CE0201DC4500D00277DDF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF5CE0011DC4500D00277DDF;
+					};
+				};
+			};
+			buildConfigurationList = FF5CDFFD1DC4500C00277DDF /* Build configuration list for PBXProject "Swift_黑魔法swizzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF5CDFF91DC4500C00277DDF;
+			productRefGroup = FF5CE0031DC4500D00277DDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF5CE0011DC4500D00277DDF /* Swift_黑魔法swizzle */,
+				FF5CE0151DC4500D00277DDF /* Swift_黑魔法swizzleTests */,
+				FF5CE0201DC4500D00277DDF /* Swift_黑魔法swizzleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF5CE0001DC4500D00277DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5CE0101DC4500D00277DDF /* LaunchScreen.storyboard in Resources */,
+				FF5CE00D1DC4500D00277DDF /* Assets.xcassets in Resources */,
+				FF5CE00B1DC4500D00277DDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5CE0141DC4500D00277DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5CE01F1DC4500D00277DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF5CDFFE1DC4500D00277DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5CE0081DC4500D00277DDF /* ViewController.swift in Sources */,
+				FF5CE0061DC4500D00277DDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5CE0121DC4500D00277DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5CE01B1DC4500D00277DDF /* Swift____swizzleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5CE01D1DC4500D00277DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5CE0261DC4500D00277DDF /* Swift____swizzleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF5CE0181DC4500D00277DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF5CE0011DC4500D00277DDF /* Swift_黑魔法swizzle */;
+			targetProxy = FF5CE0171DC4500D00277DDF /* PBXContainerItemProxy */;
+		};
+		FF5CE0231DC4500D00277DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF5CE0011DC4500D00277DDF /* Swift_黑魔法swizzle */;
+			targetProxy = FF5CE0221DC4500D00277DDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF5CE0091DC4500D00277DDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF5CE00A1DC4500D00277DDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF5CE00E1DC4500D00277DDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF5CE00F1DC4500D00277DDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF5CE0281DC4500D00277DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF5CE0291DC4500D00277DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF5CE02B1DC4500D00277DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift_黑魔法swizzle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Riches.Swift----swizzle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FF5CE02C1DC4500D00277DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift_黑魔法swizzle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Riches.Swift----swizzle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FF5CE02E1DC4500D00277DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift_黑魔法swizzleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Riches.Swift----swizzleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_黑魔法swizzle.app/Swift_黑魔法swizzle";
+			};
+			name = Debug;
+		};
+		FF5CE02F1DC4500D00277DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift_黑魔法swizzleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Riches.Swift----swizzleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_黑魔法swizzle.app/Swift_黑魔法swizzle";
+			};
+			name = Release;
+		};
+		FF5CE0311DC4500D00277DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Swift_黑魔法swizzleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Riches.Swift----swizzleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift_黑魔法swizzle";
+			};
+			name = Debug;
+		};
+		FF5CE0321DC4500D00277DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Swift_黑魔法swizzleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Riches.Swift----swizzleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift_黑魔法swizzle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF5CDFFD1DC4500C00277DDF /* Build configuration list for PBXProject "Swift_黑魔法swizzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5CE0281DC4500D00277DDF /* Debug */,
+				FF5CE0291DC4500D00277DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF5CE02A1DC4500D00277DDF /* Build configuration list for PBXNativeTarget "Swift_黑魔法swizzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5CE02B1DC4500D00277DDF /* Debug */,
+				FF5CE02C1DC4500D00277DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF5CE02D1DC4500D00277DDF /* Build configuration list for PBXNativeTarget "Swift_黑魔法swizzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5CE02E1DC4500D00277DDF /* Debug */,
+				FF5CE02F1DC4500D00277DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF5CE0301DC4500D00277DDF /* Build configuration list for PBXNativeTarget "Swift_黑魔法swizzleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5CE0311DC4500D00277DDF /* Debug */,
+				FF5CE0321DC4500D00277DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF5CDFFA1DC4500C00277DDF /* Project object */;
+}
